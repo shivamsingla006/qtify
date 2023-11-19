@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 :root {
     --backgroundCommonTheme: #121212;
     --parrotGreen: #34C94B;
@@ -8,6 +9,7 @@
     border-radius: 8px;
     border: 1px solid var(--black);
     color: var(--black);
+    font-family: 'Poppins', sans-serif;
 }
 .buttonStyle {
     margin-left: -40px;
@@ -16,11 +18,13 @@
     height: 70%;
     border-radius: 
     0px, 8px, 8px, 0px;
+    font-family: 'Poppins', sans-serif;
 }
 .searchWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 .giveFeedbackBtn {
     width: 170px;
@@ -31,4 +35,5 @@
     color: var(--parrotGreen);
     background-color: var(--backgroundCommonTheme);
     margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
 }
