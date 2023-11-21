@@ -10,7 +10,10 @@ export default function NavBarComponent(){
            <div className={navBarContainerStyles.logoWrapper}>
                 <img className={navBarContainerStyles.logoCss} src={require('../assets/qtifyLogo.png')} />
             </div>
-           <SearchInputField />
+            <div className={searchStyle.searchWrapper}>
+                <input className={searchStyle.inputStyle} type="text" placeholder="Search a album of your choice" />
+                <ButtonComponent containIcon={true} buttonStyle={searchStyle.buttonStyle} />
+            </div>
            <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
         </div>
     )
