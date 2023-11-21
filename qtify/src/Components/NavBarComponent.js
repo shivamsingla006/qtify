@@ -6,7 +6,10 @@ import LogoComponent from "./LogoComponent.js"
 export default function NavBarComponent(){
     return (
         <div className={navBarContainerStyles.navbarcontainer}>
-           <LogoComponent />
+           {/* <LogoComponent /> */}
+           <div className={navBarContainerStyles.logoWrapper}>
+                <img className={navBarContainerStyles.logoCss} src={require('../assets/qtifyLogo.png')} />
+            </div>
            <SearchInputField />
            <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
         </div>
