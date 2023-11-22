@@ -37,3 +37,6 @@
     margin-right: 20px;
     font-family: 'Poppins', sans-serif;
 }
+.giveFeedbackBtn:hover {
+    cursor: pointer;
+}
