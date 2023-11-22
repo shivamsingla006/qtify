@@ -10,8 +10,7 @@ function App() {
     <div className={navBarContainerStyles.navbarcontainer}>
         {/* <NavBarComponent /> */}
         {/* <nav className={navBarContainerStyles.navbarcontainer}> */}
-           {/* <LogoComponent /> */}
-           <img className={navBarContainerStyles.logoCss} src={require('./assets/qtifyLogo.png')} />
+           <LogoComponent />
            <SearchInputField />
            <div>
            <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
