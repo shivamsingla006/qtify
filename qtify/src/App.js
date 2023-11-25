@@ -3,7 +3,6 @@ import navBarContainerStyles from "./css/NavBarComponent.module.css"
 import SearchInputField from "./Components/SearchInputField.js"
 import ButtonComponent from "./Components/ButtonComponent.js"
 import searchStyle from "./css/SearchInputField.module.css"
-import navBarContainerStyles from "../css/NavBarComponent.module.css"
 
 function App() {
   return (
