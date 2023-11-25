@@ -7,7 +7,7 @@ import searchStyle from "./css/SearchInputField.module.css"
 function App() {
   return (
     <nav className={navBarContainerStyles.navbarcontainer}>
-            <img className={navBarContainerStyles.logoCss} src={require('../assets/qtifyLogo.png')} />
+            <img className={navBarContainerStyles.logoCss} src={require('./assets/qtifyLogo.png')} />
            <SearchInputField />
            <div>
               <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
