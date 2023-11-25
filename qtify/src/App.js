@@ -3,20 +3,17 @@ import navBarContainerStyles from "./css/NavBarComponent.module.css"
 import SearchInputField from "./Components/SearchInputField.js"
 import ButtonComponent from "./Components/ButtonComponent.js"
 import searchStyle from "./css/SearchInputField.module.css"
-import LogoComponent from "./Components/LogoComponent.js"
+import navBarContainerStyles from "../css/NavBarComponent.module.css"
 
 function App() {
   return (
-    <div className={navBarContainerStyles.navbarcontainer}>
-        {/* <NavBarComponent /> */}
-        {/* <nav className={navBarContainerStyles.navbarcontainer}> */}
-           <LogoComponent />
+    <nav className={navBarContainerStyles.navbarcontainer}>
+            <img className={navBarContainerStyles.logoCss} src={require('../assets/qtifyLogo.png')} />
            <SearchInputField />
            <div>
-           <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
+              <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
            </div>
-        {/* </nav> */}
-    </div>
+    </nav>
   );
 }
 

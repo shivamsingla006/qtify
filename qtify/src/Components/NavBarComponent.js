@@ -9,7 +9,7 @@ export default function NavBarComponent(){
            <LogoComponent />
            <SearchInputField />
            <div style={{cursor: 'pointer'}}>
-           <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
+                <ButtonComponent buttonStyle={searchStyle.giveFeedbackBtn} containIcon={false} text={'Give Feedback'} />
            </div>
         </nav>
     )
